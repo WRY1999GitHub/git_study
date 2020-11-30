@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>判断成年</title>
+</head>
+<body>
+    <script>
+
+        var age = prompt('input');
+        if(age < 18 && age > 0){
+            document.write('你还未成年');
+        }else if(age > 18){
+            document.write('你已经成年了');
+        }else if(age == 18){
+            document.write('你刚刚成年');
+        }else if(age <= 0){
+            document.write('请输入大于零的数')
+        }else{
+            document.write('请输入数字');
+        }
+
+
+
+
+    </script>
+</body>
+</html>
